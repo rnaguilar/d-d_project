@@ -1,0 +1,125 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 2px !important;
+}
+
+
+
+footer{
+    position: fixed;
+    top: 822px;
+    display: flex;
+    width: 620px;
+    height: 60px;
+}
+
+.level{
+    background-color: rgb(244, 204, 255);
+    font-size: 35px;
+    text-align: center;
+    height: 50px;
+    margin-left: 15px;
+    width: 80px;
+    padding-top: 10px;
+}
+
+.school{
+    width: 485px;
+    background-color: rgba(244, 204, 255, 0.4);
+    font-size: 18px;
+    text-align: left;
+    align-items: center;
+    font-family: 'Castellar', sans-serif;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.card-container{
+    width: 620px;
+    height: 877px;
+    border-color: rgb(244, 204, 255);
+    border-style: solid;
+}
+
+.card-title{
+    margin-top: 0px;
+    width: 100%;
+    height: 36px;
+    background-color: rgb(244, 204, 255);
+    font-family: 'Castellar', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 6px;
+}
+
+.card-status{
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 0px;
+    margin-left: 15px;
+    width: 620px;
+    height: 36px;
+}
+
+.card-status-container{
+    width: 150px;
+    height: 35px;
+}
+
+.status-img{
+    margin-left: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.status-text{
+    float: right;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center; 
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+hr{
+    margin-top: 15px;
+    width: 570px;
+}
+
+.description-container{
+    width: 570px;
+    height: 550px !important;
+    margin-top: 40px;
+    margin-left: 25px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.description-title{
+    position: relative;
+    color: rgb(71, 24, 93);
+    font-weight: bold;
+}
+
+.description{
+    
+    position: relative;
+    width: 570px;
+    height: 400px;
+    
+    text-align: justify;
+}
+
+.description-material{
+    
+    position: relative;
+    min-height: 100px;
+    width: 570px;
+}
+
+
